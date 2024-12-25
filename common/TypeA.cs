@@ -8,19 +8,18 @@ namespace common
 {
 
 
-    public class TypeA
+    public class point
     {
-        public enum WeekDays
+        struct Point
         {
-            Monday,
-            Tuesday,
-            Wednesday,
-            Thursday,
-            Friday,
-            Saturday,
-            Sunday
+            public int X { get; set; }
+            public int Y { get; set; }
 
-
+            public Point(int x, int y)
+            {
+                X = x;
+                Y = y;
+            }
         }
     }
 }

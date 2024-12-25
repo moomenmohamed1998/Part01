@@ -1,8 +1,11 @@
-﻿namespace Part01
+﻿using System.Drawing;
+using common;
+
+namespace Part01
 {
     internal class Program
     {
-        #region 
+        #region Q1
         enum WeekDays
         {
             Monday,
@@ -15,7 +18,6 @@
         }
         #endregion
 
-
         #region Q3
         [Flags]
         enum Permissions
@@ -27,7 +29,8 @@
             Execute=4
 
         }
-
+        #endregion
+        
         #region Q4
 
         enum Colors
@@ -41,11 +44,6 @@
         #endregion
 
 
-
-        #endregion
-
-
-
         static void Main(string[] args)
         {
             #region Q1
@@ -56,8 +54,9 @@
 
             #endregion
 
+            #region Q2
 
-
+            #endregion
 
             #region Q3
             //Permissions myp = (Permissions)3;
@@ -106,7 +105,30 @@
 
             #endregion
 
+            #region Q5
 
+            // point p01;
+            //int x = 10;
+
+            //p01 = new point(10,41);
+            ////Console.WriteLine();
+            ///
+
+          
+
+
+            //Point point1 = new Point(int x,int y);
+            
+            //Console.Write("X: ");
+            //int x = int.Parse(Console.ReadLine());
+            //Console.Write("Y: ");
+            //int y = int.Parse(Console.ReadLine());
+
+         
+
+            
+
+            #endregion
 
 
 
