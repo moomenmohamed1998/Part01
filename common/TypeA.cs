@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace common
 {
-    internal class TypeA
+
+
+    public class TypeA
     {
+        public enum WeekDays
+        {
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
+
+
+        }
     }
 }
