@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace common
 {
-    internal class TypeA
+
+
+    public class point
     {
+        struct Point
+        {
+            public int X { get; set; }
+            public int Y { get; set; }
+
+            public Point(int x, int y)
+            {
+                X = x;
+                Y = y;
+            }
+        }
     }
 }
